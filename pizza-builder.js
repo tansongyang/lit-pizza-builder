@@ -1064,7 +1064,7 @@
   `;
   PizzaBuilder.properties = {
     cdnUrl: {},
-    product: {},
+    product: { type: Object },
     _selectedToppings: { state: true }
   };
   PizzaBuilder = __decorateClass([
